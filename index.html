@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPT-2 Text Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>GPT-2 Text Generator</h1>
+    <p>Enter a prompt and generate meaningful text using Hugging Face GPT-2.</p>
+
+    <textarea id="prompt" placeholder="Example: Artificial Intelligence will change the future by..."></textarea>
+
+    <button onclick="generateText()">Generate Text</button>
+
+    <div class="output-box">
+      <h2>Generated Output</h2>
+      <p id="output">Your generated text will appear here...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
