@@ -2,10 +2,6 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/index.html"
-    },
-    {
       "source": "/api/generate",
       "destination": "/api/generate.js"
     }
